@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4d0099;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+li {
+  float: left;
+  width: 20%;
+}
+
+li .link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  width: 100%;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 0;
+  text-decoration: none;
+}
+
+li .link:hover {
+  background-color: #5900b3;
+}

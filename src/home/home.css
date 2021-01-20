@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(46, 51, 97);
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3.6rem;
+  color: white;
+  text-shadow: 2px 2px 5px rgb(34, 30, 30);
+}
+
+.homePhoto {
+  display: flex;
+  justify-content: center;
+}
+
+.homeImg {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
